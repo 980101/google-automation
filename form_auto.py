@@ -6,7 +6,7 @@ import time
 
 # URL 접속
 driver = webdriver.Chrome()
-driver.get("https://docs.google.com/forms/d/e/1FAIpQLSdkZ2GsolQhQhAYb9tHeyvkFtXJiPk-28vV81ysA-bzjy0lkg/viewform")
+driver.get("구글폼_URL")
 
 # 응답자이름 입력
 name_elem = driver.find_element_by_xpath(
